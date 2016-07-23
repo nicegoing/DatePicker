@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/fl_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"/>
+    <Button
+        android:onClick="onClickTwo"
+        android:id="@+id/onClickTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="system"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:textSize="30sp"
+    android:textColor="#ff00ff"
+    android:id="@+id/tv_show"/>
+
+</LinearLayout>
