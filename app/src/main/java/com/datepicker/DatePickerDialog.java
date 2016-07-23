@@ -256,7 +256,7 @@ public class DatePickerDialog extends DialogFragment {
             calendar.set(dateBean.getYear(),dateBean.getMonth(),1);
             int flags = DateUtils.FORMAT_NO_MONTH_DAY | DateUtils.FORMAT_SHOW_DATE|DateUtils.FORMAT_SHOW_YEAR;
             tvMonth.setText(DateUtils.formatDateTime(getContext(), calendar.getTimeInMillis(), flags));
-            //添加头部的星期
+            //add weekday
             for (int i = 0; i <7; i++) {
                 TextView textView = new TextView(getContext());
                 GridLayout.LayoutParams layoutParams = new GridLayout.LayoutParams(GridLayout.spec(0), GridLayout.spec(i));
